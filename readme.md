@@ -1,0 +1,1 @@
+<!-- box sizing: border box in css to make sure it doesnt scroll horizontally -->
