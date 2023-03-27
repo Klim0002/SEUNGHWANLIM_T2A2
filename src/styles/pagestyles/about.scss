@@ -1,0 +1,20 @@
+@import "../defaults/color";
+@import "../defaults/headerother";
+@import "../defaults/footer" ;
+
+
+
+
+img  {
+    margin: 4px;
+    border-radius: 50%;
+    border: 3px $bt solid;
+
+    
+
+}
+
+.aboutme    {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: $bt;
+}

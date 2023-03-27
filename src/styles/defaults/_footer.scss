@@ -1,8 +1,11 @@
 @import "./color";
 
 footer {
+    display: flex;
+    flex-direction: column;
+    
 
-    padding-top: 90px;
+    
     
     p {
         color: $bt;
@@ -13,6 +16,16 @@ footer {
         padding: 0%;
         margin: 0%;
     }
+.email {
+        
+        color: $bt;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        color: $bt;
+}
    
    
 }
@@ -21,6 +34,6 @@ footer {
         justify-content: space-around;
         flex-wrap:wrap ;
         margin-bottom: 12px;
-        padding: 0%;
+        padding: 10px;
     
 }

@@ -1,1 +1,81 @@
-/*# sourceMappingURL=about.css.map */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7dad4;
+  width: auto;
+  height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7dad4;
+  width: auto;
+  height: auto;
+}
+body header .header {
+  color: #313409;
+  position: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+}
+body .navbuttons {
+  display: flex;
+  text-align: center;
+  display: flex;
+  color: #313409;
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: space-around;
+}
+body .navbuttons a {
+  text-decoration: none;
+  color: #313409;
+  justify-content: space-around;
+}
+
+footer {
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer p {
+  color: #313409;
+  position: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  padding: 0%;
+  margin: 0%;
+}
+footer .email {
+  color: #313409;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #313409;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+
+img {
+  margin: 4px;
+  border-radius: 50%;
+  border: 3px #313409 solid;
+}
+
+.aboutme {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #313409;
+}/*# sourceMappingURL=about.css.map */
