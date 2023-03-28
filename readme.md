@@ -20,5 +20,10 @@ changed the whol color palette and the concept.
 
 Photo by <a href="https://unsplash.com/@ton1_g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Toni G</a> on <a href="https://unsplash.com/photos/4I9mhwxWF9I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-https://www.hungrybearstudios.com/
-  
+# 27/03/2023
+
+## aboutme page
+
+about me page done. still trying to figure out why the elements are not fillin out the page.
+
+original figma has been thrown out as well as the initial design. simplified it.

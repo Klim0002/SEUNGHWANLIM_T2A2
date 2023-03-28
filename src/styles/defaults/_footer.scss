@@ -1,9 +1,9 @@
 @import "./color";
 
 footer {
-    display: flex;
-    flex-direction: column;
-    
+        grid-row-start:4;
+    grid-column-start: 1;
+    grid-column-end: 5;
 
     
     
@@ -17,7 +17,7 @@ footer {
         margin: 0%;
     }
 .email {
-        
+        display: flex;
         color: $bt;
         justify-content: center;
         text-align: center;

@@ -1,6 +1,7 @@
 footer {
-  display: flex;
-  flex-direction: column;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 footer p {
   color: #313409;
@@ -12,6 +13,7 @@ footer p {
   margin: 0%;
 }
 footer .email {
+  display: flex;
   color: #313409;
   justify-content: center;
   text-align: center;
@@ -32,12 +34,13 @@ footer .email {
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 0.5 369px 0.5fr;
   background-color: #f7dad4;
+  min-height: 100vh;
 }
-body header .header {
-  grid-row-start: -2;
-  grid-row-end: -1;
+body .header {
+  grid-row-start: 1;
+  grid-column-end: 1;
   color: #313409;
   position: center;
   text-align: center;
@@ -49,13 +52,13 @@ body header .header {
 
 img {
   width: 100%;
-  grid-row-start: -1;
+  grid-row-start: 2;
   grid-column-start: 1;
   height: 100%;
 }
 
 .navbuttons {
-  grid-row-start: -1;
+  grid-row-start: 2;
   grid-column-start: 1;
 }
 .navbuttons nav a {

@@ -64,13 +64,28 @@ footer .email {
   padding: 10px;
 }
 
-img {
-  margin: 4px;
-  border-radius: 50%;
-  border: 3px #313409 solid;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0%;
 }
-
-.aboutme {
+body .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
   font-family: "Roboto Condensed", sans-serif;
   color: #313409;
-}/*# sourceMappingURL=about.css.map */
+  width: 100%;
+}
+body .form input {
+  width: 95%;
+}
+body .form textarea {
+  width: 95%;
+}
+body .form button {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=contact.css.map */

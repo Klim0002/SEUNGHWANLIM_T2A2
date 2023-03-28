@@ -1,0 +1,36 @@
+@import "../defaults/color";
+@import "../defaults/headerother";
+@import "../defaults/footer";
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0%;
+    
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: $bt;
+        width: 100%;
+
+        input {
+            width: 95%;
+
+        }
+        textarea {
+            width: 95%;
+        }
+        button {
+            display: flex;
+            justify-content: center;
+        }
+        
+    }
+
+}
