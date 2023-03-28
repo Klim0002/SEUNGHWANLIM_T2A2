@@ -27,3 +27,11 @@ Photo by <a href="https://unsplash.com/@ton1_g?utm_source=unsplash&utm_medium=re
 about me page done. still trying to figure out why the elements are not fillin out the page.
 
 original figma has been thrown out as well as the initial design. simplified it.
+
+# 28/03/2023
+
+## contact me 
+
+contact me page is now done.
+
+i will need to reroute some of the pages so that they can go to the various other pages within those pages
