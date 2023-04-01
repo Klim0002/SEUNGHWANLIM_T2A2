@@ -37,6 +37,7 @@ body {
   grid-template-rows: 0.5 369px 0.5fr;
   background-color: #f7dad4;
   min-height: 100vh;
+  margin: 0%;
 }
 body .header {
   grid-row-start: 1;
@@ -77,4 +78,49 @@ img {
 }
 .navbuttons nav a:hover {
   background-color: rgba(228, 241, 50, 0.4);
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body .picture {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  body .picture img {
+    width: 45%;
+  }
+  body .navbuttons {
+    display: flex;
+    justify-content: center;
+  }
+  body .navbuttons nav {
+    display: flex;
+  }
+}
+body :nth-child(1) {
+  order: 1;
+}
+
+body :nth-child(2) {
+  order: 3;
+}
+
+body :nth-child(3) {
+  order: 2;
+}
+
+body :nth-child(4) {
+  order: 4;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=stylesheet.css.map */

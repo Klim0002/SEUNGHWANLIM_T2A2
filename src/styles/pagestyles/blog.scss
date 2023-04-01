@@ -1,0 +1,74 @@
+@import "../defaults/color";
+@import "../defaults/headerother";
+@import "../defaults/footer";
+
+
+body{
+    flex-wrap: wrap;
+    align-items: center;
+
+
+article {
+    width: 80%;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    text-align: center;
+    flex-direction: column;
+    margin: 4px;
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        a {
+            img {
+                width: 300px;
+                
+                
+            }
+
+        }
+
+    }
+    
+    
+}
+}
+
+@media screen and (min-width: 600px) {
+    
+    
+    body {
+        display: flex;
+        flex-wrap: wrap;    
+        justify-content: space-between;  
+        
+        .blogitems {
+            display: flex;
+            height: 400px;
+            flex-direction: row;
+        
+            article {
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;   
+            text-align: center;
+            flex-direction: column;
+            margin: 4px;
+            overflow: hidden;
+            
+            section{
+                img {
+                width: 150px;
+                overflow: hidden;
+                
+                }
+            }
+            
+        }
+    }
+}
+}

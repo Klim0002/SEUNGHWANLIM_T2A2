@@ -65,33 +65,52 @@ footer .email {
   padding: 10px;
 }
 
-img {
-  margin: 4px;
-  border-radius: 50%;
-  border: 3px #313409 solid;
+body {
+  flex-wrap: wrap;
+  align-items: center;
 }
-
-.aboutme {
-  font-family: "Roboto Condensed", sans-serif;
-  color: #313409;
+body article {
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 4px;
+}
+body article section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body article section a img {
+  width: 300px;
 }
 
 @media screen and (min-width: 600px) {
-  .content {
+  body {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
-  .content img {
-    width: 45%;
+  body .blogitems {
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+  }
+  body .blogitems article {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     margin: 4px;
-    border-radius: 50%;
-    border: 3px #313409 solid;
+    overflow: hidden;
   }
-  .content .aboutme {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #313409;
-    padding-left: 4px;
+  body .blogitems article section img {
+    width: 150px;
+    overflow: hidden;
   }
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=blog.css.map */

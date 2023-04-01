@@ -66,8 +66,9 @@ footer .email {
 }
 
 img {
+  justify-content: center;
   margin: 4px;
-  border-radius: 50%;
+  width: 75%;
   border: 3px #313409 solid;
 }
 
@@ -77,21 +78,25 @@ img {
 }
 
 @media screen and (min-width: 600px) {
-  .content {
+  body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
   }
-  .content img {
+  body .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  body .content img {
     width: 45%;
     margin: 4px;
-    border-radius: 50%;
     border: 3px #313409 solid;
   }
-  .content .aboutme {
+  body .content .aboutme {
     font-family: "Roboto Condensed", sans-serif;
     color: #313409;
     padding-left: 4px;
+    width: 45;
   }
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=blog1.css.map */
