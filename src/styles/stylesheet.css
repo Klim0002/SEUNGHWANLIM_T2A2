@@ -103,6 +103,7 @@ body .header {
     justify-content: space-between;
   }
   body .picture {
+    width: 75%;
     display: flex;
     justify-content: center;
     padding: 0%;
