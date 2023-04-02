@@ -34,12 +34,12 @@ body {
     
 .content{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    
+    
 
     img  {
-        width: 45%;
+        width: 35%;
         margin: 4px;
         border-radius: 50%;
         border: 3px $bt solid;
@@ -48,6 +48,7 @@ body {
     }
     
     .aboutme    {
+        width: 45%;
         font-family: 'Roboto Condensed', sans-serif;
         color: $bt;
         padding-left: 4px;

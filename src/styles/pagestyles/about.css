@@ -97,17 +97,16 @@ body .content .aboutme {
 @media screen and (min-width: 600px) {
   .content {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
   }
   .content img {
-    width: 45%;
+    width: 35%;
     margin: 4px;
     border-radius: 50%;
     border: 3px #313409 solid;
   }
   .content .aboutme {
+    width: 45%;
     font-family: "Roboto Condensed", sans-serif;
     color: #313409;
     padding-left: 4px;
