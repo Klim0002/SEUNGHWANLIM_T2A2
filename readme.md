@@ -1,48 +1,31 @@
-<!-- box sizing: border box in css to make sure it doesnt scroll horizontally -->
+## links
 
-# 21/03/2023
+[deployed site](https://seunghwanlimportfolios.netlify.app/index.html)\
+[GIT](           https://github.com/Klim0002/SEUNGHWANLIM_T2A2)\
+[Presentation Video](https://vimeo.com/813956555)  
 
-## beginning of the project
+## Description of Portfolio
 
-homepage and the basic scss has been started. currently trying to figure out why my footer is not spanning the whole width of the screen as well as try to make nav button align and space equally along the right had side of the page.
+-purpose
 
-i will need to edit the image so i dont have to scroll down to see the footer. 
+to show what I've learned so far bar making a basic portfolio website.
 
-![first draft](./docs/screenshot1.png)
+-functionality 
 
-basically the first iterations of the index.html and index.scss.
+Ive made the UI simple with all movement between pages through the navbar. 
 
-# 23/03/2023
+-screenshots
 
-## Re doing the initial desgn and making a mash up.
+refer to README1.md to see screen shots and a quick diary of the process.
 
-changed the whol color palette and the concept.
+-target audience
 
-Photo by <a href="https://unsplash.com/@ton1_g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Toni G</a> on <a href="https://unsplash.com/photos/4I9mhwxWF9I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+the target audence for the site is potential employers and assessors. potentially clientele.
 
-# 27/03/2023
+-tech stack
 
-## aboutme page
-
-about me page done. still trying to figure out why the elements are not fillin out the page.
-
-original figma has been thrown out as well as the initial design. simplified it.
-
-# 28/03/2023
-
-## contact me 
-
-contact me page is now done.
-
-i will need to reroute some of the pages so that they can go to the various other pages within those pages
+html, css 
+netlify to deploy site
+git to back up the site.
 
 
-# 01/04/2023
-
-## finishing the site. 
-
-currently filled the blogs and some of the other items. double checked the connectivity to the other pages so they don't show errors.
-
-# 02/04/2023
-
-completed the website. now doing the rest of the assignment that is required. Probably could do it cleaner and more efficiently.
