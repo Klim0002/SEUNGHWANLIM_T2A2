@@ -1,9 +1,10 @@
-@import "../defaults/color";
-@import "../defaults/headerother";
-@import "../defaults/footer";
+@import "../../styles/defaults/color";
+@import "../../styles/defaults/footer";
+@import "../../styles/defaults/headerother";
 
 
-body{
+body {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
 
@@ -36,6 +37,8 @@ article {
     
 }
 }
+
+
 
 @media screen and (min-width: 600px) {
     

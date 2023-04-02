@@ -31,6 +31,15 @@ footer .email {
   padding: 10px;
 }
 
+@media screen and (min-width: 600px) {
+  footer {
+    width: 100%;
+  }
+  footer .social {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 body {
   display: grid;
   grid-template-columns: 1fr;
@@ -51,11 +60,14 @@ body .header {
   margin: 0%;
 }
 
-img {
+.picture {
   width: 100%;
   grid-row-start: 2;
   grid-column-start: 1;
   height: 100%;
+}
+.picture img {
+  width: 100%;
 }
 
 .navbuttons {
@@ -63,6 +75,9 @@ img {
   grid-column-start: 1;
 }
 .navbuttons nav a {
+  position: relative;
+  grid-row-start: 2;
+  grid-column-start: 1;
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
@@ -84,6 +99,8 @@ img {
   body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
   body .picture {
     display: flex;
@@ -95,7 +112,6 @@ img {
     width: 45%;
   }
   body .navbuttons {
-    display: flex;
     justify-content: center;
   }
   body .navbuttons nav {

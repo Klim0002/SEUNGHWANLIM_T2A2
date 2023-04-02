@@ -65,28 +65,51 @@ footer .email {
   padding: 10px;
 }
 
+@media screen and (min-width: 600px) {
+  footer {
+    width: 100%;
+  }
+  footer .social {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0%;
 }
-body .form {
+body .formelements {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+body .formelements .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   font-family: "Roboto Condensed", sans-serif;
   color: #313409;
   width: 100%;
 }
-body .form input {
+body .formelements .form input {
   width: 95%;
 }
-body .form textarea {
+body .formelements .form textarea {
   width: 95%;
+  margin-bottom: 8px;
 }
-body .form button {
-  display: flex;
-  justify-content: center;
+body .formelements .form button {
+  margin: 8px;
+}
+
+@media screen and (min-width: 600px) {
+  body .formelements .form textarea {
+    width: 33%;
+  }
+  body .formelements .form input {
+    width: 33%;
+  }
 }/*# sourceMappingURL=contact.css.map */

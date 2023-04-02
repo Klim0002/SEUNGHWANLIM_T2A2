@@ -1,9 +1,21 @@
 @import "../defaults/color";
 @import "../defaults/headerother";
-@import "../defaults/footer" ;
+@import "../../styles/defaults/footer" ;
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
 
 img  {
-    justify-content: center;
+    
     margin: 4px;
     width: 75%;
     border: 3px $bt solid;
@@ -13,12 +25,14 @@ img  {
 
 }
 
+
 .aboutme    {
     font-family: 'Roboto Condensed', sans-serif;
     color: $bt;
 }
+}
 
-
+}
 
 
 @media screen and (min-width: 600px) {

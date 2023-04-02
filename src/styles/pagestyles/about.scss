@@ -2,18 +2,29 @@
 @import "../defaults/headerother";
 @import "../defaults/footer" ;
 
-img  {
-    margin: 4px;
-    border-radius: 50%;
-    border: 3px $bt solid;
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img  {
+        margin: 4px;
+        border-radius: 50%;
+        border: 3px $bt solid;
 
     
 
 }
 
-.aboutme    {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: $bt;
+    .aboutme    {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: $bt;
+    }
+}
 }
 
 

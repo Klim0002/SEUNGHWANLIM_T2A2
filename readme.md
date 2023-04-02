@@ -35,3 +35,14 @@ original figma has been thrown out as well as the initial design. simplified it.
 contact me page is now done.
 
 i will need to reroute some of the pages so that they can go to the various other pages within those pages
+
+
+# 01/04/2023
+
+## finishing the site. 
+
+currently filled the blogs and some of the other items. double checked the connectivity to the other pages so they don't show errors.
+
+# 02/04/2023
+
+completed the website. now doing the rest of the assignment that is required. Probably could do it cleaner and more efficiently.
